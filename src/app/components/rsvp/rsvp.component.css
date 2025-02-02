@@ -1,0 +1,30 @@
+.rsvp-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.rsvp-form h2 {
+  text-align: center;
+}
+
+.rsvp-form form div {
+  margin-bottom: 10px;
+}
+
+.rsvp-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rsvp-form button:disabled {
+  background-color: #cccccc;
+}

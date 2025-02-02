@@ -1,0 +1,17 @@
+
+<div class="rsvp-form">
+  <h2>Приглашение на свадьбу</h2>
+  <form [formGroup]="rsvpForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Ваше имя:</label>
+      <input id="name" formControlName="name" type="text" required>
+    </div>
+
+    <div>
+      <label for="attending">Будете ли вы присутствовать?</label>
+      <input id="attending" formControlName="attending" type="checkbox">
+    </div>
+
+    <button type="submit" [disabled]="rsvpForm.invalid">Отправить</button>
+  </form>
+</div>
