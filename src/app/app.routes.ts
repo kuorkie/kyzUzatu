@@ -4,12 +4,12 @@ import {WelcomeComponent} from './components/welcome/welcome.component';
 
 export const routes: Routes = [
   {
-    path:'hi',
+    path:'',
     component:RsvpComponent,
     pathMatch:"full"
   },
   {
-    path:'',
+    path:'j',
     component:WelcomeComponent,
     pathMatch:"full"
   }
