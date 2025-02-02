@@ -9,7 +9,7 @@ export const routes: Routes = [
     pathMatch:"full"
   },
   {
-    path:'/',
+    path:'hj',
     component:WelcomeComponent,
     pathMatch:"full"
   }
