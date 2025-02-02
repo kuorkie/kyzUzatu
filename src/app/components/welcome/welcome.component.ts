@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {RsvpComponent} from '../rsvp/rsvp.component';
 
 @Component({
   selector: 'app-welcome',
-  imports: [CommonModule,RsvpComponent],
+  imports: [CommonModule],
   templateUrl: './welcome.component.html',
   styleUrl: './welcome.component.css'
 })
