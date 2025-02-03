@@ -8,5 +8,10 @@ import {CommonModule} from '@angular/common';
   styleUrl: './welcome.component.css'
 })
 export class WelcomeComponent {
+  rand = Math.random();
 
+  map = document.querySelector('#starmap');
+ngOnInit(){
+
+}
 }
