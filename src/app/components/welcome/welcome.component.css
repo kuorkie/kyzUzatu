@@ -51,51 +51,6 @@
 
 }
 
-svg {
-  z-index: 1;
-  width: 50vw;
-  max-width: 40rem;
-  height: auto;
-}
-
-
-.sparkles path {
-  transform-origin: 50% 50%;
-  transform-box: fill-box;
-  animation: sparkle var(--duration) var(--delay) infinite ease-in-out;
-}
-
-@keyframes sparkle {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(0);
-  }
-  70% {
-    transform: scale(-1, 0);
-  }
-  80% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-
-/*.text{*/
-/*  background: url('/458.png');*/
-/*  background-size: 400px 400px;*/
-/*  background-repeat: no-repeat;*/
-/*  background-position: center;*/
-/*  opacity: 0.95;*/
-/*  border-radius: 4px;*/
-/*  height: 200px;*/
-/*  width: 500px;*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*}*/
 .text{
   background: white;
   opacity: 0.85;
@@ -110,6 +65,7 @@ svg {
 }
 img.rot {
   animation: 50s linear 0s normal none infinite running rot;
+
 }
 @keyframes rot {
   0% {
