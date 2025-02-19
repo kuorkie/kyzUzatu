@@ -1,4 +1,4 @@
-<div id="body" xmlns="http://www.w3.org/1999/html">
+<div id="body" xmlns="http://www.w3.org/1999/html" *ngIf="isMobile">
   <div id="welcome" >
     <div  class="text">
       <span style="font-family:'Lobster'!important;font-size: 45px">Құндыз
@@ -9,7 +9,7 @@
 
   </div>
 
-  <div id="content1">
+  <div class="content1">
   <div class="item">
     <span style="font-family:'vAcadei'!important;font-size: 17px;text-align: center;padding: 10px" >
        <img src="/img/455.png" style="opacity: 0.10;position: absolute;" class="rot" height="350px"/>
@@ -51,4 +51,9 @@
   </div>
 
 
+</div>
+<div  *ngIf="!isMobile">
+  <div class="content" >
+    САЙТ МОБИЛЬДІ ҚОСЫМШАДА АШЫЛАДЫ!
+  </div>
 </div>

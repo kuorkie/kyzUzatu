@@ -16,8 +16,8 @@
   overflow-y: hidden;
 
 }
-#content {
-  background: url("/img/img_2.png") no-repeat center;
+.content {
+  background: url("/img/img_6.png") no-repeat ;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -26,7 +26,8 @@
   flex-direction: row;
   align-items: center;
 
-}#content1 {
+}
+.content1 {
   background: url("/img/img_6.png") no-repeat center;
   background-size: cover;
   display: flex;
