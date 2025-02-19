@@ -4,6 +4,7 @@ import {collection, addDoc, Firestore} from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-rsvp',
+  standalone:true,
   imports:[FormsModule,ReactiveFormsModule],
   templateUrl: './rsvp.component.html',
   styleUrls: ['./rsvp.component.css']

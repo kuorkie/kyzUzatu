@@ -2,8 +2,12 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background: #f4f4f4;
   border-radius: 8px;
+  font-family:'vAcadei'!important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .rsvp-form h2 {
@@ -18,13 +22,21 @@
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
-  color: white;
+  background-color: #E4E4E3;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 17px;
+  font-family:'vAcadei'!important;
 }
 
 .rsvp-form button:disabled {
   background-color: #cccccc;
+}
+.custom-input {
+  width: 95%;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
 }
