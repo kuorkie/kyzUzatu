@@ -1,0 +1,58 @@
+.music-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+/* SVG-круг */
+.circle-svg {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Вращение при воспроизведении */
+
+.rotating-group {
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Включаем вращение при воспроизведении */
+.rotate {
+  animation: spin 5s linear infinite;
+}
+
+/* Анимация вращения */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Текст по кругу */
+.circle-text {
+  font-size: 25px;
+  fill: white;
+  font-weight: bold;
+}
+
+/* Кнопка воспроизведения */
+.play-button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
